@@ -1,0 +1,32 @@
+
+body{
+    background: rgb(228,149,87);
+    background: linear-gradient(0deg, rgba(228,149,87,1) 0%, rgba(137,235,204,1) 25%, rgba(114,60,18,1) 50%, rgba(84,180,132,1) 75%, rgba(0,0,0,1) 100%);
+}
+
+main{
+    width: 80%;
+    margin: 0 10%;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+#sec_one{
+    background: rgb(59, 58, 58) url(img/final-fantasy-7-banner-midgar.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: large;
+    filter: grayscale(1);
+}
+
+#sec_two div{
+    display: flex;
+}
+
+#sec_two img{
+    width: 25%;
+}
