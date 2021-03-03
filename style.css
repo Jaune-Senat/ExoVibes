@@ -1,12 +1,43 @@
 
 body{
-    background: rgb(228,149,87);
     background: linear-gradient(0deg, rgba(228,149,87,1) 0%, rgba(137,235,204,1) 25%, rgba(114,60,18,1) 50%, rgba(84,180,132,1) 75%, rgba(0,0,0,1) 100%);
+}
+
+header{
+    margin: 1em 15em;
+    display: flex;
+    align-items : center;
+}
+
+header img{
+    width: 8%;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a{
+    color : #fff;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: end;
+    flex: 1;
+    margin-left: 10em;
+    padding-top: 1em;
+}
+
+nav i{
+    font-size: 1.5em;
 }
 
 main{
     width: 80%;
     margin: 0 10%;
+    background-color: #fff;
 }
 
 h1{
@@ -17,16 +48,118 @@ h1{
     background: rgb(59, 58, 58) url(img/final-fantasy-7-banner-midgar.jpg) no-repeat center center;
     background-size: cover;
     text-align: center;
-    color: #fff;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: large;
     filter: grayscale(1);
+    text-shadow: -1px 0 rgb(137,235,204), 0 1px rgb(137,235,204), 0 -1px rgb(137,235,204);
+    font-size: large;
+    padding: 5em 0;
 }
 
-#sec_two div{
+#sec_one p{
+    font-size: 1.3em;
+    padding: 0.5em 2em;
+}
+
+#sec_two{
     display: flex;
+    justify-content: center;
+    padding: 1.5em  10% 3em;
+}
+#sec_two div {
+    width: 32%;
+    padding: 0 1em;
 }
 
-#sec_two img{
+#openable p{
+    padding:0.5em 1em;
+}
+
+#sec_three{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#sec_three img{
     width: 25%;
+}
+
+#sec_three a{
+    color: #000;
+    margin :0 0.5em
+}
+
+#sec_three nav{
+    padding-top: 1em;
+}
+
+#nav_image{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 1.5em 5em;
+}
+
+#sec_four{
+    background-color: #fff;
+    padding: 1em 2em;
+} 
+
+.button{
+    margin-right: 1em;
+    border: 3px solid rgb(84,180,132);
+    padding:0.5em 1em;
+}
+
+#sec_four h1{
+    text-align: center;
+}
+
+hr{
+    border : 3px solid rgb(84,180,132);
+    width: 20%;
+}
+
+#sec_four div{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: auto 0;
+    padding: 0.25em 3em;
+}
+
+#sec_four .testimony:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+#sec_four img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    padding: 1em;
+}
+
+#sec_four p{
+    padding: 2em;
+}
+
+#sec_four>p{
+    text-align: center;
+}
+
+small{
+    font-style: italic;
+}
+
+#sec_five{
+    background: #000 url(img/stars.gif);
+    color:#fff;
+    text-align: center;
+    padding: 2em;
+}
+#sec_five p{
+    padding: 1em;
+}
+#sec_five .button{
+    color: #fff;
 }
