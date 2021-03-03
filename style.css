@@ -3,7 +3,7 @@ body{
     background: linear-gradient(0deg, rgba(228,149,87,1) 0%, rgba(137,235,204,1) 25%, rgba(114,60,18,1) 50%, rgba(84,180,132,1) 75%, rgba(0,0,0,1) 100%);
 }
 
-header{
+header, footer{
     margin: 1em 15em;
     display: flex;
     align-items : center;
@@ -13,7 +13,7 @@ header img{
     width: 8%;
 }
 
-a{
+a:link, a:visited{
     text-decoration: none;
 }
 
@@ -40,8 +40,12 @@ main{
     background-color: #fff;
 }
 
-h1{
+h1, h3, h4{
     text-transform: uppercase;
+}
+
+h1{
+    text-align: center;
 }
 
 #sec_one{
@@ -59,13 +63,13 @@ h1{
     padding: 0.5em 2em;
 }
 
-#sec_two{
+#sec_two, #sec_seven{
     display: flex;
     justify-content: center;
     padding: 1.5em  10% 3em;
 }
-#sec_two div {
-    width: 32%;
+#sec_two div, #sec_seven div{
+    flex:1;
     padding: 0 1em;
 }
 
@@ -99,19 +103,16 @@ h1{
     margin: 1.5em 5em;
 }
 
-#sec_four{
+#sec_four, #sec_four a{
     background-color: #fff;
     padding: 1em 2em;
+    color: #000;
 } 
 
 .button{
     margin-right: 1em;
     border: 3px solid rgb(84,180,132);
     padding:0.5em 1em;
-}
-
-#sec_four h1{
-    text-align: center;
 }
 
 hr{
@@ -162,4 +163,73 @@ small{
 }
 #sec_five .button{
     color: #fff;
+}
+#sec_six{
+    width: 100%;
+    align-content: center;
+    padding-bottom: 2em;
+}
+
+#sec_six form{
+    width: 80%;
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+
+h4{
+    margin-bottom: 0.5em;
+}
+
+input{
+    height: 2em;
+}
+
+input, textarea{
+    background-color: rgb(84,180,132);
+    width: 100%;
+}
+
+#form_left{
+    flex : 1;
+    padding-right: 1.5em;
+}
+
+#form_right{
+    flex: 1;
+    padding-left: 1.5em;
+}
+
+#form-btn{
+    margin-top: 0.5em;
+    background-color: #fff;
+    border: 3px solid rgb(84,180,132);
+    width: 6em;
+}
+
+#sec_seven{
+    background-color: #000;
+    color: #fff;
+}
+
+ .green{
+    color:rgb(84,180,132);
+}
+
+footer{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer hr .hrToleft{
+    justify-content: flex-start;
+}
+
+footer nav a{
+    padding: 0.5em;
+}
+
+footer, footer a{
+    color:#fff;
 }
