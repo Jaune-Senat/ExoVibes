@@ -68,6 +68,7 @@ h1{
     justify-content: center;
     padding: 1.5em  10% 3em;
 }
+
 #sec_two div, #sec_seven div{
     flex:1;
     padding: 0 1em;
@@ -158,12 +159,15 @@ small{
     text-align: center;
     padding: 2em;
 }
+
 #sec_five p{
     padding: 1em;
 }
+
 #sec_five .button{
     color: #fff;
 }
+
 #sec_six{
     width: 100%;
     align-content: center;
@@ -212,6 +216,11 @@ input, textarea{
     color: #fff;
 }
 
+#sec_seven hr{
+    margin-left: 0;
+    display: block;
+}
+
  .green{
     color:rgb(84,180,132);
 }
@@ -220,10 +229,6 @@ footer{
     width: 65%;
     display: flex;
     justify-content: space-between;
-}
-
-footer hr .hrToleft{
-    justify-content: flex-start;
 }
 
 footer nav a{
