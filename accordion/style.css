@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+section{
+    width: 50%;
+    max-width: 500px;
+    margin: auto;
+    padding: 1em 1em 2em;
+    
+}
+
+.textrose{
+    color: #f22589;
+}
+
+.accordion-part{
+    border: 1px solid #aaa;
+    padding: 0 3em;
+    position: relative;
+    margin: 1em 0; 
+}
+.accordion-part h4{
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.accordion-part p{
+    text-align: justify;
+    height: 0em; margin: 0em 0;
+    transition: margin 0.5s, height 0.5s;
+    overflow: hidden;
+}
+.accordion-part i{
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+.accordion-part i.fas:before{
+    content: "\f067";
+}
+
+.acc-open i.fas:before{
+    content: "\f068";
+}
+
+.acc-open p{
+    height: 3.5em;
+    margin: 1em 0;
+}
