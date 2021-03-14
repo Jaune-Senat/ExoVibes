@@ -59,6 +59,10 @@ h1{
     padding: 4.5em 0;
 }
 
+#sec_one .button{
+    background-color: #fff;
+}
+
 #sec_one p, #sec_one h1, #sec_one .button{
     font-size: 1.3em;
     padding: 0.5em 2em;
@@ -152,6 +156,12 @@ h1{
 
 #sec_three img{
     width: 25%;
+    animation: zoom 1s;
+}
+
+@keyframes zoom{
+    from{transform: rotate(270deg) scale(0,0);}
+    to{transform: rotate(360deg) scale(1,1);}
 }
 
 #sec_three a{
@@ -358,14 +368,11 @@ footer, footer a{
     #sec_three img{
         width: 50%;
     }
-    #sec_one h1, #sec_one p, #mid_sec_two, #accordion, #sec_three nav,#sec_four a, #sec_three a, #sec_four img{
+    #sec_one h1, #sec_one p, #mid_sec_two, #accordion, #sec_three nav,#sec_four a, #sec_three a, #sec_four img, #sec_five{
         display: none;
     }
     #sec_four div, #sec_four p{
         padding: 0;
-    }
-    #sec_five{
-        display: none;
     }
     #sec_six form{
         flex-direction: column;
