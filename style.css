@@ -51,10 +51,10 @@ h1{
 }
 
 #sec_one{
-    background:/* rgb(59, 58, 58)*/ url(img/final-fantasy-7-banner-midgar.jpg) no-repeat center center;
+    background: url(img/final-fantasy-7-banner-midgar.jpg) no-repeat center center;
     background-size: cover;
     text-align: center;
-    /*filter: grayscale(1);*/
+    filter: invert(10%);
     font-size: large;
     padding: 4.5em 0;
 }
